@@ -75,7 +75,7 @@ function Eligibility() {
                 width="176"
                 // height="719"
                 src="https://ad.airtics.org/wp-content/uploads/2023/11/logo-set-1.png"
-                class="attachment-full size-full wp-image-31110"
+                className="attachment-full size-full wp-image-31110"
                 alt=""
               />
             </div>
@@ -87,7 +87,7 @@ function Eligibility() {
                 decoding="async"
                 width="176"
                 src="https://ad.airtics.org/wp-content/uploads/2023/11/logo-set-2.png"
-                class="attachment-full size-full wp-image-31111"
+                className="attachment-full size-full wp-image-31111"
                 alt=""
               />
             </div>
@@ -99,7 +99,7 @@ function Eligibility() {
                 decoding="async"
                 width="176"
                 src="https://ad.airtics.org/wp-content/uploads/2023/11/logo-set-3.png"
-                class="attachment-full size-full wp-image-31112"
+                className="attachment-full size-full wp-image-31112"
                 alt=""
               />
             </div>
@@ -111,7 +111,7 @@ function Eligibility() {
                 decoding="async"
                 width="176"
                 src="https://ad.airtics.org/wp-content/uploads/2023/11/logo-set-4.png"
-                class="attachment-full size-full wp-image-31113"
+                className="attachment-full size-full wp-image-31113"
                 alt=""
               />
             </div>
@@ -124,7 +124,7 @@ function Eligibility() {
                 width="176"
                 height="522"
                 src="https://ad.airtics.org/wp-content/uploads/2023/11/logo-set-5.png"
-                class="attachment-full size-full wp-image-31114"
+                className="attachment-full size-full wp-image-31114"
                 alt=""
               />
             </div>
@@ -137,7 +137,7 @@ function Eligibility() {
                 width="476"
                 height="521"
                 src="https://ad.airtics.org/wp-content/uploads/2023/11/logo-set-6.png"
-                class="attachment-full size-full wp-image-31115"
+                className="attachment-full size-full wp-image-31115"
                 alt=""
               />
             </div>

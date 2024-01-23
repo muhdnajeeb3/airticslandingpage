@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import { Container } from "react-bootstrap";
+import PopupForm from "./PopupForm";
 
 function Banner() {
   return (
@@ -9,6 +10,7 @@ function Banner() {
       className="min-h-[760px] bg-banner bg-no-repeat m-auto bg-cover bg-center"
     >
       <NavBar />
+      <PopupForm />
       <div className="max-w-[1200px] mx-auto text-base mt-32 flex flex-col">
         <span className="text-3xl text-white font-medium mb-8">MASTER OF</span>
         <span className=" text-5xl md:text-8xl font-semibold text-white">DATA</span>

@@ -5,6 +5,9 @@ import Embrace from '../homecomponents/Embrace'
 import Eligibility from '../homecomponents/Eligibility'
 import ProgramCurriculum from '../homecomponents/ProgramCurriculum'
 import AcademicTeam from '../homecomponents/AcademicTeam'
+import ApplyNow from '../homecomponents/ApplyNow'
+import Footer from '../homecomponents/Footer'
+import ChooseWoolf from '../homecomponents/ChooseWoolf'
 
 function HomeScreen() {
   return (
@@ -12,9 +15,12 @@ function HomeScreen() {
     <Banner />
     <AboutWoolf />
     <Embrace />
+    <ChooseWoolf />
     <Eligibility />
     <ProgramCurriculum />
     <AcademicTeam />
+    <ApplyNow />
+    <Footer />
     </>
   )
 }

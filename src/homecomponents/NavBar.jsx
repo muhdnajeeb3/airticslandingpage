@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar() {
   return (
-    <div className="max-w-[1200px] m-auto p-3 flex justify-between lg:flex-row  flex-col">
+    <div className="max-w-[1200px] m-auto py-3 flex justify-between lg:flex-row  flex-col">
       <div className="flex gap-3 items-center flex-wrap">
         <img
           src="https://ad.airtics.org/wp-content/uploads/2023/11/logo-white-only.svg"
