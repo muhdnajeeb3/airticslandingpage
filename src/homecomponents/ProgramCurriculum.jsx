@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 
 function ProgramCurriculum() {
   return (
-    <Container fluid className="bg-[#fff4e3]">
+    <Container fluid className="bg-[#fff4e3]" id="curriculum">
       <div className="max-w-[1200px] m-auto pt-[4rem] pb-6">
         <span className="text-[#ea9e25] font-bold md:text-4xl text-2xl my-3 flex flex-col">
           PROGRAM CURRICULUM

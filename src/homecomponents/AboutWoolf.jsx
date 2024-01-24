@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 
 function AboutWoolf() {
   return (
-    <Container fluid className="bg-[#E7E7E7] min-h-[290px]">
+    <Container fluid className="bg-[#E7E7E7] min-h-[290px]" id="aboutwoolf">
       <Row className="flex flex-col max-w-[1200px] mx-auto py-8">
         <span className="text-[#ea9e25] font-bold md:text-4xl text-2xl mb-4">
           ABOUT WOOLF

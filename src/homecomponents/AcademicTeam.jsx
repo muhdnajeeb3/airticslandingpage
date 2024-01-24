@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 
 function AcademicTeam() {
   return (
-    <Container fluid className="bg-white min-h-[300px] py-[2rem]">
+    <Container fluid className="bg-white min-h-[300px] py-[2rem]" id="faculty">
       <Row className="max-w-[1200px] m-auto">
         <span className="text-black font-bold md:text-4xl text-2xl">
           ACADEMIC TEAM

@@ -61,7 +61,7 @@ function Eligibility() {
         </h2>
         <hr />
         <br />
-        <h2 className="md:text-4xl text-2xl font-bold text-[#ea9e25]">
+        <h2 className="md:text-4xl text-2xl font-bold text-[#ea9e25]" id="tools">
           LEARN IN-DEMAND
           <br />
           TOOLS & LANGUAGES
