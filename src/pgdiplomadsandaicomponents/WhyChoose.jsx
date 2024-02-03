@@ -7,6 +7,7 @@ function WhyChoose() {
     <Container
       fluid
       className="bg-whychoosebg min-h-[500px] bg-center bg-no-repeat bg-cover"
+      id="whythisprogram"
     >
       <div className="max-w-[1200px] m-auto flex">
         <div className="lg:w-[33.33%]"></div>

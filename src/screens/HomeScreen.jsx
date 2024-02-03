@@ -8,10 +8,14 @@ import AcademicTeam from '../homecomponents/AcademicTeam'
 import ApplyNow from '../homecomponents/ApplyNow'
 import Footer from '../homecomponents/Footer'
 import ChooseWoolf from '../homecomponents/ChooseWoolf'
+import { Helmet } from "react-helmet";
 
 function HomeScreen() {
   return (
     <>
+    <Helmet>
+    <title>Master in Data Science in Woolf - Airtics</title>
+    </Helmet>
     <Banner />
     <AboutWoolf />
     <Embrace />

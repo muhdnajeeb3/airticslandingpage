@@ -1,29 +1,27 @@
 import React from "react";
-import { Button } from "react-bootstrap";
-
 function NavBar() {
-  const handleAboutWoolfScroll = () => {
-    const AboutWoolf = document.getElementById("aboutwoolf");
-    if (AboutWoolf) {
-      AboutWoolf.scrollIntoView({ behavior: "smooth" });
+  const handleWhyThisProgramcroll = () => {
+    const WhyThisProgram = document.getElementById("whythisprogram");
+    if (WhyThisProgram) {
+      WhyThisProgram.scrollIntoView({ behavior: "smooth" });
     }
   };
   const handleCurriculumScroll = () => {
-    const Curriculum = document.getElementById("curriculum");
+    const Curriculum = document.getElementById("pgcurriculum");
     if (Curriculum) {
       Curriculum.scrollIntoView({ behavior: "smooth" });
     }
   };
-  const handleToolsScroll = () => {
-    const Tools = document.getElementById("tools");
-    if (Tools) {
-      Tools.scrollIntoView({ behavior: "smooth" });
+  const handleExitPathwayScroll = () => {
+    const ExitPathway = document.getElementById("exitpathway");
+    if (ExitPathway) {
+      ExitPathway.scrollIntoView({ behavior: "smooth" });
     }
   };
-  const handleFacultyScroll = () => {
-    const Faculty = document.getElementById("faculty");
-    if (Faculty) {
-      Faculty.scrollIntoView({ behavior: "smooth" });
+  const handleCourseDeliveryScroll = () => {
+    const CourseDelivery = document.getElementById("coursedelivery");
+    if (CourseDelivery) {
+      CourseDelivery.scrollIntoView({ behavior: "smooth" });
     }
   };
   return (
@@ -38,16 +36,16 @@ function NavBar() {
       </div>
       <div className="flex gap-4 text-white p-4 flex-wrap">
         <div className="flex gap-4">
-          <span className="text-base cursor-pointer" onClick={handleAboutWoolfScroll}>Why This Program</span>
+          <span className="text-base cursor-pointer" onClick={handleWhyThisProgramcroll}>Why This Program</span>
         </div>
         <div className="flex gap-4">
           <span className="text-base cursor-pointer" onClick={handleCurriculumScroll}>Curriculum</span>
         </div>
         <div className="flex gap-4">
-          <span className="text-base cursor-pointer" onClick={handleToolsScroll}>Course Delivery</span>
+          <span className="text-base cursor-pointer" onClick={handleCourseDeliveryScroll}>Course Delivery</span>
         </div>
         <div className="flex gap-4">
-          <span className="text-base cursor-pointer" onClick={handleFacultyScroll}>Exit Pathways</span>
+          <span className="text-base cursor-pointer" onClick={handleExitPathwayScroll}>Exit Pathways</span>
         </div>
       </div>
       <div className="flex gap-4 text-white p-4 flex-wrap">

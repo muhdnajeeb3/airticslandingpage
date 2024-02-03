@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 import tick from '../images/check.png'
 function ExitPathways() {
   return (
-    <Container fluid className='bg-[#172570] bg-exitpathway bg-no-repeat bg-cover '>
+    <Container fluid className='bg-[#172570] bg-exitpathway bg-no-repeat bg-cover ' id='exitpathway'>
         <div className='max-w-[1200px] m-auto py-[4rem]'>
 
         <h2 className="text-[#40C3D5] font-[Raleway] text-3xl md:text-7xl font-[900]">EXIT PATHWAYS</h2>

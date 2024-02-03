@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import NavBar from "./NavBar";
+import PopupForm from "../homecomponents/PopupForm";
 
 function Banner() {
   const switchimg =
@@ -8,6 +9,7 @@ function Banner() {
   return (
     <Container fluid className="bg-[#0C1051] pb-5">
       <NavBar />
+      {/* <PopupForm /> */}
       <div className="max-w-[1200px] m-auto flex pt-5 pb-3 lg:flex-row flex-col">
         <div className="flex flex-col gap-4">
           <span className="text-white font-extrabold text-5xl">
